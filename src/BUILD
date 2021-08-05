@@ -1,5 +1,5 @@
 go_binary(
-  name = "main",
-  srcs = ["main.go"],
-  deps = ["//src/greetings:greetings"],
+  name = "fizzbizz",
+  srcs = ["fizzbizz.go"],
 )
+
