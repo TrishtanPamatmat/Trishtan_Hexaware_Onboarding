@@ -1,11 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	i := 1
-	for i <= 15 {
-		if i%3 == 3 {
+	var number float64
+
+	fmt.Println("Enter Number: ")
+	fmt.Scanf("%f", &number)
+
+	for i <= int(number) {
+		if i%3 == 0 {
 			fmt.Println("Fizz")
 		} else if i%5 == 0 {
 			fmt.Println("Buzz")
