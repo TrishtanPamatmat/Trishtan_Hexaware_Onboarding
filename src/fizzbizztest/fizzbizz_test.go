@@ -1,4 +1,4 @@
-package fizzbizztest
+package fizzbizz_test
 
 import (
 	"testing"
